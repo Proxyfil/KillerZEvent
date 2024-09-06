@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #4ABA31!important;
+    justify-content: space-between;
 }
 
 .navbar-icon {
@@ -28,6 +29,10 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.gdoc:hover {
+    color: #4ABA31;
 }
 
 #container {
