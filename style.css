@@ -30,6 +30,10 @@ body {
     align-items: center;
 }
 
+.gdoc:hover {
+    color: #4ABA31;
+}
+
 #container {
     width: 100%;
     height: 100%;
