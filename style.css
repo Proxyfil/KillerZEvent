@@ -14,6 +14,7 @@ body {
     align-items: center;
     border-bottom: 1px solid #4ABA31!important;
     justify-content: space-between;
+    background-color: #161616;
 }
 
 .navbar-icon {
