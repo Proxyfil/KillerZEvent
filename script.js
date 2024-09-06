@@ -7,8 +7,8 @@ async function init() {
     let best_killer = 1
 
     data.forEach(streamer_data => {
-        if(streamer_data.kill_count > best_killer) {
-            best_killer = streamer_data.kill_count
+        if(parseInt(streamer_data.kill_count) > best_killer) {
+            best_killer = parseInt(streamer_data.kill_count)
         }
     })
 
